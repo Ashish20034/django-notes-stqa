@@ -24,3 +24,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local database files — do not commit
+data/
+
+# Environment secrets
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
