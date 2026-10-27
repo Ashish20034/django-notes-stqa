@@ -1,4 +1,4 @@
-# Webhook test: verify GitHub push triggers Jenkins
+# Testing GitHub webhook trigger
 version: "3.8"
 
 services:
