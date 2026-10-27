@@ -1,4 +1,4 @@
-# Testing GitHub webhook trigger
+# django testing
 version: "3.8"
 
 services:
