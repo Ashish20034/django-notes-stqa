@@ -1,5 +1,31 @@
-data/
+
+# Git files
 .git/
+.gitignore
+
+# Environment variables and secrets
 .env
+.env.*
+
+# Python cache
 __pycache__/
 *.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Node dependencies
+**/node_modules/
+
+# Local database and persistent data
+data/
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+
